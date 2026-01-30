@@ -10,7 +10,8 @@ function knock_header_banner() {
         | $$\  $$ | $$\  $$$| $$  | $$| $$    $$| $$\  $$ 
         | $$ \  $$| $$ \  $$|  $$$$$$/|  $$$$$$/| $$ \  $$
         |__/  \__/|__/  \__/ \______/  \______/ |__/  \__/
-                                                  
+        '
+    echo "                                              
         Knock knock, who's there ! development by null@2026
         --------------------------------------------------
         Available service :
@@ -18,7 +19,7 @@ function knock_header_banner() {
         [2] Sendfile
         [3] Reciever
         -------------------------------------------------                              
-    '
+    "
     read -p "select option : " knockopt
 }
 
